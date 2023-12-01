@@ -1,0 +1,39 @@
+.header.auth {
+  height: 10vh;
+  background-color: #434C63;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header.main {
+  margin: 10px 0 50px 0;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  color: #FFFFFF;
+}
+
+.header-block.notification-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block__item {
+  padding-right: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.block__item:last-child {
+  padding-right: 0;
+}
+
+.block__img{
+  padding-right: 15px;
+}

@@ -1,0 +1,24 @@
+.header-search-block {
+  position: relative;
+}
+
+.header-search__input {
+  padding-left: 45px;
+  width: 298px;
+  height: 36px;
+  font-size: 16px;
+  border: 1px solid #cbcbcb;
+  border-radius: 5px;
+  outline: none;
+}
+
+.header-search__input:focus {
+  border: 2px solid #434C63;
+}
+
+.header-search__icon {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  z-index: 17;
+}

@@ -1,0 +1,43 @@
+.sidebar-button {
+  padding: 0;
+  margin-bottom: 20px;
+  width: 80%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  color: #8C8C8C;
+  background-color: #FAFAFA;
+  border: none;
+  text-decoration: none;
+  border-radius: 12px;
+  transition: background-color linear .2s;
+}
+
+.sidebar-button:hover {
+  background-color: #F0F0F0;
+}
+
+.active {
+  background-color: #434C63;
+  color: #FFFFFF;
+  box-shadow: 3px 3px 5px #cccccc;
+  transition: background-color linear .2s;
+}
+
+.active:hover {
+  background-color: #7d8ab0;
+}
+
+.button-content {
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.button_icon {
+  margin-right: 20px;
+}
+
+.button-text {
+  font-size: 18px;
+}
